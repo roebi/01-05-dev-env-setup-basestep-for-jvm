@@ -83,7 +83,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+this project is 'only' install **sdkman**, install **zulu fx java 17** and install **gradle 8**
+
+<!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +113,11 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To setup a development environment (needed basestep) for jvm (Java Virtual Machine) (Java, Scala, Kotlin, Groovy) you have three choices
+To setup a development environment (needed basestep) for
+
+jvm (Java Virtual Machine) (Java, Scala, Kotlin, Groovy)
+
+you have three choices
 
 * local
 * Podman Dockerfile (local ide and Podman Desktop, tools and libs in a Dockerfile)
@@ -119,42 +127,49 @@ We focus on **local**.
 
 let start local development
 
-### Prerequisites (skdman)
+### Prerequisites
+
+Target is: install [sdkman][sdkman-url]
+
+on a windows machine
 
 assumend, you have installed
-* git
-  * on windows
-  * git for windows
-  * tortoise git
-* and a ide, for example intellij
+
+* [Git for Windows][gitforwindows-url]
+
+* [TortoiseGit][tortoisegit-url]
+
+* a IDE, for example [IntelliJ IDEA][jetbrains-intellij-ide-url]
 
 first we install [sdkman][sdkman-url]
 * git bash
   ```bash
   curl -s "https://get.sdkman.io" | bash
   ```
-  this downloads a bash script from sdkman.io and execute it in a bash. This installs sdkman. Follow the instructions in the terminal.
+  this downloads a bash script from sdkman.io and execute it in a bash. This installs **sdkman**. Follow the instructions in the terminal.
 
-### Installation (zulu fx java 17 and gradle 8)
+### Installation
+
+Target is: install **zulu fx java 17** and **gradle 8**
 
 * optional - clone / fork / or use it as template - the repo if you need the README.md
    ```bash
    git clone https://github.com/roebi/01-05-dev-env-setup-basestep-for-jvm.git
    ```
-* Install the latest zulu java fx 17 LTS
+* Install the latest **zulu java fx LTS** version, current version 17
    ```bash
     // sdk list java // list all available java
     sdk install java 17.0.8.fx-zulu
    ```
 
-* Install the latest gradle non rc  fx 17 LTS
+* Install the latest **gradle non rc** version, current version 8.2.1
    ```bash
     // sdk list gradle // list all available gradle
     sdk install gradle 8.2.1
    ```
 
    #### Remark
-   In the first time you use the whole **Gradle** Installation. This is used for your first project. In this Project then Gradle install a smaller **Gradle Wrapper**. This Gradle Wrapper, started with **gradlew* is then used to run gradle tasks.
+   In the first time you use the whole **Gradle** Installation. This is used for your first project. In this Project then Gradle install a smaller **Gradle Wrapper**. This Gradle Wrapper, started with **gradlew** is then used to run gradle tasks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,7 +185,9 @@ setup a gradle project
 ```bash
 gradle init
 ```
-then Gradle comes up with some questions...
+then Gradle comes up with some questions ...
+
+here you see the first question:
 
 ```bash
 Starting a Gradle Daemon, 1 busy and 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
@@ -190,7 +207,7 @@ cancel the task here, with Ctrl-C
 
 **Now you are ready to setup a gradle project**
 
-**for**
+for
 
 **a JVM Application**
 
@@ -355,5 +372,11 @@ feel free to use a other README.md template in your project:
 [markdown-basic-syntax]: https://www.markdownguide.org/basic-syntax
 
 <!-- more Links here -->
+
+[gitforwindows-url]: https://gitforwindows.org/
+
+[tortoisegit-url]: https://tortoisegit.org/
+
+[jetbrains-intellij-ide-url]: https://www.jetbrains.com/de-de/idea/
 
 [sdkman-url]: https://sdkman.io/
