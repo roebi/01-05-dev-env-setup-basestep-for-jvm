@@ -328,7 +328,7 @@ feel free to use a other README.md template in your project:
 <!-- shields.io/-LinkedIn Static Badge -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/https://ch.linkedin.com/in/robert-halter-814818a4
+[linkedin-url]: https://www.linkedin.com/in/robert-halter-814818a4/
 [product-screenshot]: images/screenshot.png
 
 <!-- shields.io/ 'Built With' Badge -->
